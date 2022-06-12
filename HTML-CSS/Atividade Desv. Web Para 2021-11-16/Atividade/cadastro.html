@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<!-- Código BootsTrap -->
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- CSS ### -->
+	<style>
+
+        body {
+
+            padding: 0;
+
+            margin: 0;
+
+        }
+
+        nav {
+
+            width: 100%;
+
+            display: flex;
+
+            position: fixed;
+
+            background-color: #00ff;
+
+            z-index: 99;
+
+        }
+
+        nav a {
+
+            color: #fff;
+
+            margin: auto 20px auto 40px;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+        }
+
+        nav div ul li {
+
+            float: left;
+
+            list-style: none;
+
+            margin-left: 20px;
+        }
+
+    </style> 
+
+
+
+</head>
+<body>
+
+	
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+    <li class="active"><a href="index.html">Home</a></li>
+	<li><a href="historia.html">Historia</a></li> 
+	<li><a href="cadastro.html">Cadastro</a></li> 
+	<li><a href="lista.html">Lista</a></li> 
+
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</nav>
+
+	<div class="container">
+		<h2>Inscrição</h2>
+  		<form action="cadastra.php" method="POST" class="was-validated">
+	    	<div class="form-group">
+	     		<label for="nome_aluno">Nome</label>
+	      		<input type="text" class="form-control" id="nome_aluno" name="nome_aluno">
+		    </div>
+		    <div class="form-group">
+	     		<label for="cpf_aluno">CPF</label>
+	      		<input type="text" class="form-control" id="cpf_aluno" name="cpf_aluno">
+		    </div>
+         <div class="form-group">
+          <label for="endereco_aluno">Endereco</label>
+            <input type="text" class="form-control" id="endereco_aluno" name="endereco_aluno">
+        </div>
+         <div class="form-group">
+          <label for="email_aluno">Email</label>
+            <input type="text" class="form-control" id="email_aluno" name="email_aluno">
+        </div>
+         <div class="form-group">
+          <label for="senha_aluno">Senha</label>
+            <input type="text" class="form-control" id="senha_aluno" name="senha_aluno">
+        </div>
+
+		    <div class="form-group">
+  				<button type="reset" class="btn btn-success">Limpar</button>
+  				<button type="submit" name="cadastra_aluno" class="btn btn-primary">Enviar</button>
+	    	</div>
+		</form>
+	</div>
+
+<!-- Bottom -->
+  <div  class="container-fluid">
+    <div class=>
+      <a class="navbar-brand" href="#">Endereco: Rua Tal, S/N, Centro-Rio Branco / AC 69.9000-000, (68)99999-9999</a>
+    </div>
+    <div style="float: right;">
+    	<ul class="nav navbar-nav">
+    	<li class="active"><a href="index.html">Redes Sociais</a></li>
+	</div>
+    </ul>
+ 
+  </div>
+
+
+
+</body>
+</html>
+
+</body>
+</html>

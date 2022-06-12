@@ -1,0 +1,10 @@
+```
+CREATE DATABASE atividade;
+use atividade;
+create table aluno(
+    nome_aluno varchar(80),
+    cpf_aluno varchar(14),
+    endereco_aluno varchar(80),
+    email_aluno varchar(80),
+    senha_aluno varchar(40));
+```

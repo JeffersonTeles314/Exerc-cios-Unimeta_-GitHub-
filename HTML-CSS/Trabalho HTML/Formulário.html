@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de Cadastro</title>
+</head>
+<body>
+	<form>
+		<h1>Cadastro de Alunos</h1>
+
+		<fieldset><legend>Dados</legend>
+		<label>Digite Seu Nome:*</label>
+		<input type="text" name="nome" id="nome" required=""><br>
+		<label>Digite O Nome Da Sua Mãe</label>
+		<input type="text" name="mae" id="mae" placeholder="Naida Navinda Navolta Pereira"><br>
+		<label>Digite O Nome Do Seu Pai</label>
+		<input type="text" name="pai" id="pai" placeholder="Antonio Manso Pacífico de Oliveira Sossegado"><br>
+		<label>Data de Nascimento</label>
+		<input type="date" name="dat" id="dat">
+		</fieldset>
+
+		<hr>
+
+		<fieldset>
+		<label>Sexo:</label>
+		<input type="radio" name="sex" id="sex1">Masculino
+		<input type="radio" name="sex" id="sex1">Feminino
+		</fieldset>
+
+		<hr>
+
+		<fieldset><legend>Meios de Contato</legend>
+		<label>Telefone*</label>
+		<input type="text" name="tel" id="tel" pattern=".{8,}" required title="8 Dígitos no Mínimo"><br>
+		<label>E-mail*</label>
+		<input type="text" name="mail" id="mail" required=""><br>
+		</fieldset>
+        
+		<hr>
+
+		<fieldset>
+		<label>Área Livre:</label><br>
+		<textarea></textarea>
+		</fieldset>
+
+		<hr>
+
+		<fieldset>
+		<label>Estado Civil:</label>
+		<SELECT>
+			<option>Solteiro(a)</option>
+			<option>Casado(a)</option>
+		</SELECT>
+		<br>
+		<br>
+		<input type="reset" name="limpar">Limpar
+		<input type="submit" name="enviar">Enviar
+		</fieldset>
+
+	</form>
+
+	<a href="STHTML_1.html">Voltar</a>
+
+
+</body>
+</html>
